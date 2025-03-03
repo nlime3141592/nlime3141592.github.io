@@ -1,8 +1,6 @@
 function onClickB0()
 {
-    fetch("../page.html")
-    .then(resp => resp.text())
-    .then(html => document.documentElement.innerHTML = html)
+    window.location.href = "../page.html"
 }
 
 document.addEventListener("DOMContentLoaded", function() {
